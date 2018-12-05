@@ -1,0 +1,25 @@
+{
+  "name": "react-docgen-imported-proptype-handler-example",
+  "version": "1.0.0",
+  "description": "example usage of react-docgen-imported-proptype-handler",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "glob": "^7.1.3",
+    "react-docgen": "^2.21.0",
+    "react-docgen-imported-proptype-handler": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjroy/react-docgen-imported-proptype-handler-example.git"
+  },
+  "author": "benjroy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjroy/react-docgen-imported-proptype-handler-example/issues"
+  },
+  "homepage": "https://github.com/benjroy/react-docgen-imported-proptype-handler-example#readme"
+}
