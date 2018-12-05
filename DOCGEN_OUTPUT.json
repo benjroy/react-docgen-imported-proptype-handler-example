@@ -1,0 +1,970 @@
+{
+  "component-class-spreads-external-member-expression.js": {
+    "description": "",
+    "displayName": "ComponentClassSpreadsExternalMemberExpression",
+    "methods": [],
+    "props": {
+      "localBool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": true,
+        "description": "Description for localBool in ComponentClassSpreadsExternalMemberExpression"
+      },
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      },
+      "api-2-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-2-node-required."
+      },
+      "api-2-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for api-2-string."
+      },
+      "api-3-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-3-node-required."
+      },
+      "api-3-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Comment for api-3-number."
+      },
+      "localNumber": {
+        "type": {
+          "name": "number"
+        },
+        "required": true,
+        "description": "Description for localNumber in ComponentClassSpreadsNested"
+      }
+    },
+    "composes": [
+      "./component-class-spreads-nested"
+    ]
+  },
+  "component-class-spreads-nested.js": {
+    "description": "",
+    "displayName": "ComponentClassSpreadsNested",
+    "methods": [],
+    "props": {
+      "localNumber": {
+        "type": {
+          "name": "number"
+        },
+        "required": true,
+        "description": "Description for localNumber in ComponentClassSpreadsNested"
+      },
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      },
+      "api-2-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-2-node-required."
+      },
+      "api-2-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for api-2-string."
+      },
+      "api-3-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-3-node-required."
+      },
+      "api-3-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Comment for api-3-number."
+      }
+    },
+    "composes": [
+      "./assets/api-3"
+    ]
+  },
+  "component-imports-api-cjs-named-exports.js": {
+    "description": "",
+    "displayName": "ComponentImportsCjsNamedExports",
+    "methods": [],
+    "props": {
+      "cjs-api-named-exports-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for cjs-api-named-exports-node-required."
+      },
+      "cjs-api-named-exports-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for cjs-api-named-exports-string."
+      }
+    },
+    "composes": [
+      "./assets/api-cjs-named-exports"
+    ]
+  },
+  "component-imports-external-proptype.js": {
+    "description": "",
+    "displayName": "ComponentImportsExternalPropType",
+    "methods": [],
+    "props": {
+      "externalPropType": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for externalPropType."
+      }
+    }
+  },
+  "component-imports-external-values-for-enum.js": {
+    "description": "",
+    "displayName": "ComponentImportsExternalValuesForEnum",
+    "methods": [],
+    "props": {
+      "api-external-values-enum": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Comment for api-external-values-enum."
+      },
+      "api-external-values-enumList": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            },
+            {
+              "value": "4",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Comment for api-external-values-enumList."
+      },
+      "enum": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "api-external-values-shape-with-enum": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "enum": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "'external-values-string'",
+                  "computed": false
+                },
+                {
+                  "value": "42",
+                  "computed": false
+                },
+                {
+                  "value": "false",
+                  "computed": false
+                }
+              ],
+              "required": false
+            }
+          }
+        },
+        "required": true,
+        "description": "Comment for api-external-values-enumList."
+      },
+      "api-external-values-notAnEnum": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-external-values-notAnEnum."
+      }
+    },
+    "composes": [
+      "./assets/api-external-values"
+    ]
+  },
+  "component-imports-literal-default.js": {
+    "description": "",
+    "displayName": "ComponentImportsLiteralDefault",
+    "methods": [],
+    "props": {
+      "external-propTypes-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for external-propTypes-string."
+      }
+    },
+    "composes": [
+      "./assets/external-propTypes"
+    ]
+  },
+  "component-imports-literal-named.js": {
+    "description": "",
+    "displayName": "ComponentImportsLiteralNamed",
+    "methods": [],
+    "props": {
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      }
+    },
+    "composes": [
+      "./assets/api-1"
+    ]
+  },
+  "component-imports-node-module.js": {
+    "description": "",
+    "displayName": "ComponentImportsNodeModule",
+    "methods": [],
+    "props": {
+      "localString": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "Description for `localString`"
+      },
+      "localBool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Description for `localBool`"
+      }
+    },
+    "composes": [
+      "react-router"
+    ]
+  },
+  "component-local-spread.js": {
+    "description": "",
+    "displayName": "ComponentLocalSpread",
+    "methods": [],
+    "props": {
+      "node": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": ""
+      },
+      "string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "enum": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "1",
+              "computed": false
+            },
+            {
+              "value": "2",
+              "computed": false
+            },
+            {
+              "value": "3",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "enum-vars": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "1",
+              "computed": false
+            },
+            {
+              "value": "'two'",
+              "computed": false
+            },
+            {
+              "value": "3",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "enum-var-of-vars": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "1",
+              "computed": false
+            },
+            {
+              "value": "'two'",
+              "computed": false
+            },
+            {
+              "value": "3",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "shape": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "LOCAL_ONE": {
+              "name": "number",
+              "required": false
+            },
+            "LOCAL_ENUM": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "1",
+                  "computed": false
+                },
+                {
+                  "value": "'two'",
+                  "computed": false
+                },
+                {
+                  "value": "3",
+                  "computed": false
+                }
+              ],
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": ""
+      },
+      "inline-object-spread-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for inline-object-spread-string."
+      },
+      "LOCAL_ONE": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "LOCAL_ENUM": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "1",
+              "computed": false
+            },
+            {
+              "value": "'two'",
+              "computed": false
+            },
+            {
+              "value": "3",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  },
+  "component-no-external-spread.js": {
+    "description": "",
+    "displayName": "ComponentNoExternalSpread",
+    "methods": [],
+    "props": {
+      "local-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for local-string.",
+        "defaultValue": {
+          "value": "'default-local-string'",
+          "computed": false
+        }
+      },
+      "local-node": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for local-node."
+      },
+      "local-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Comment for local-number."
+      },
+      "local-enum": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "9",
+              "computed": false
+            },
+            {
+              "value": "'eight'",
+              "computed": false
+            },
+            {
+              "value": "7",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Comment for local-enum.",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      },
+      "local-enum-external-values": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "0",
+              "computed": false
+            },
+            {
+              "value": "1",
+              "computed": false
+            },
+            {
+              "value": "2",
+              "computed": false
+            },
+            {
+              "value": "'three'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "local-enum-external-list": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            },
+            {
+              "value": "4",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "local-bool-spread": {
+        "type": {
+          "name": "bool"
+        },
+        "required": true,
+        "description": "Comment for local-bool-spread."
+      }
+    }
+  },
+  "component-requires-and-spreads-nested.js": {
+    "description": "",
+    "displayName": "ComponentRequiresAndSpreadsNested",
+    "methods": [],
+    "props": {
+      "local-func": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "function noop() {}",
+          "computed": false
+        }
+      },
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      },
+      "api-2-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-2-node-required."
+      },
+      "api-2-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for api-2-string."
+      },
+      "api-3-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-3-node-required."
+      },
+      "api-3-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Comment for api-3-number."
+      }
+    },
+    "composes": [
+      "./assets/api-3"
+    ]
+  },
+  "component-spreads-call-expression.js": {
+    "description": "",
+    "displayName": "ComponentSpreadsExternalMemberExpression",
+    "methods": [],
+    "props": {
+      "localFunction": {
+        "type": {
+          "name": "func"
+        },
+        "required": true,
+        "description": "Description for localFunction"
+      }
+    }
+  },
+  "component-spreads-external-member-expression.js": {
+    "description": "",
+    "displayName": "ComponentSpreadsExternalMemberExpression",
+    "methods": [],
+    "props": {
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      },
+      "api-2-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-2-node-required."
+      },
+      "api-2-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for api-2-string."
+      },
+      "api-3-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-3-node-required."
+      },
+      "api-3-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Comment for api-3-number."
+      },
+      "local-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "api-external-values-enum": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Comment for api-external-values-enum."
+      },
+      "api-external-values-enumList": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            },
+            {
+              "value": "4",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Comment for api-external-values-enumList."
+      },
+      "enum": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'external-values-string'",
+              "computed": false
+            },
+            {
+              "value": "42",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "api-external-values-shape-with-enum": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "enum": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "'external-values-string'",
+                  "computed": false
+                },
+                {
+                  "value": "42",
+                  "computed": false
+                },
+                {
+                  "value": "false",
+                  "computed": false
+                }
+              ],
+              "required": false
+            }
+          }
+        },
+        "required": true,
+        "description": "Comment for api-external-values-enumList."
+      },
+      "api-external-values-notAnEnum": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-external-values-notAnEnum."
+      }
+    },
+    "composes": [
+      "./component-spreads-nested",
+      "./reexports-imported-component"
+    ]
+  },
+  "component-spreads-nested.js": {
+    "description": "",
+    "displayName": "ComponentSpreadsNested",
+    "methods": [],
+    "props": {
+      "local-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "4242",
+          "computed": false
+        }
+      },
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      },
+      "api-2-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-2-node-required."
+      },
+      "api-2-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for api-2-string."
+      },
+      "api-3-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-3-node-required."
+      },
+      "api-3-number": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Comment for api-3-number."
+      }
+    },
+    "composes": [
+      "./assets/api-3"
+    ]
+  },
+  "component-spreads.js": {
+    "description": "",
+    "displayName": "ComponentSpreads",
+    "methods": [],
+    "props": {
+      "local-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'default-local-string'",
+          "computed": false
+        }
+      },
+      "api-1-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-1-node-required."
+      },
+      "api-1-bool": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Comment for api-1-bool."
+      },
+      "api-2-node-required": {
+        "type": {
+          "name": "node"
+        },
+        "required": true,
+        "description": "Comment for api-2-node-required."
+      },
+      "api-2-string": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Comment for api-2-string."
+      }
+    },
+    "composes": [
+      "./assets/api-1",
+      "./assets/api-2"
+    ]
+  }
+}
